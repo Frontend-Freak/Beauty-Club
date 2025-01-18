@@ -311,3 +311,9 @@ h4{
     flex-direction: column;
     gap:10px;
 }
+
+
+@media (width: 600px){
+    body{
+        max-width: 100%;
+}
