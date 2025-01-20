@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beauty Club</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/fonts.css">
-    <link rel="icon" href="./img/logo/logo.svg">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="icon" href="/img/logo/logo.svg">
 </head>
 <body style="background-color:#fcddec;">
     <div class="wrapper">
         <header class="header">
             <div class="container">
                 <div class="header__inner">
-                    <a href="./index.html" class="header__logo logo">
-                        <img src="./img/logo/logo.svg" alt="logo">
+                    <a href="/index.html" class="header__logo logo">
+                        <img src="/img/logo/logo.svg" alt="logo">
                     </a>
                     <nav class="header__nav">
                         <ul class="header__nav-list">
@@ -50,17 +50,39 @@
             </div>
         </header>
 
-        <main class="main">
-            
+        <main class="main__note">
+            <section class="note_form">
+                <h1 class="note_form-title">
+                    Запись на сеанс
+                </h1>
+                <form action="#!" method="post" class="note_form-input" autocomplete="on">
+                    <div class="note_form-item">
+                        <label for="username">Имя и фамилия</label>
+                        <input id="username" type="username" placeholder="Кристина Кирилова">
+                    </div>
+                    <div class="note_form-item">
+                        <label for="tel">Номер телефона</label>
+                        <input id="tel" type="tel" placeholder="+7 800 555 35 35">
+                    </div>
+                    <div class="note_form-item">
+                        <label id="date" for="tel">Желаемая дата </label>
+                        <input type="date" placeholder="дд.мм.гг ">
+                    </div>
+                    <input type="file">
+                    <button class="" type="submit">
+                        Отправить
+                    </button>
+                </form>
+            </section>
         </main>
 
         <footer class="footer">
             <div class="container">
                 <ul class="footer__list">
                     <li class="footer__list-item">
-                        <a href="./index.html" class="footer__logo logo">
-                            <img src="./img/logo/logo.svg" alt="logo">
-                        </a>
+                        <div class="footer__logo logo">
+                            <img src="/img/logo/logo.svg" alt="logo">
+                        </div>
                     </li>
                     <li class="footer__list-item">
                         <h4 class="collaborate__title">
